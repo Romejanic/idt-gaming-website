@@ -1074,6 +1074,9 @@ footer p {
 .nsw-government {
 	height: 100px;
 }
+footer a.nsw {
+	border: none;
+}
 /* ==========================================================================FlexSlider Custom CSS========================================================================== */
 #servicesSlider {
 	margin-top:70px;
