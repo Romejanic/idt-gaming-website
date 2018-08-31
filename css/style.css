@@ -591,10 +591,18 @@ h1.arrow span {
 	height: 848px;
 	background-position: left;
 }
+.about-image.about-2 {
+	height: 887px;
+	background-position: center;
+}
 @media screen and (max-width: 991px) {
 	.about-image.about-1 {
 		height: 400px;
-		background-position-y: -159px;
+		background-position-y: -42px;
+	}
+	.about-image.about-2 {
+		height: 400px;
+		background-position-y: -200px;
 	}
 }
 .color-bg {
