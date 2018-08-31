@@ -782,6 +782,7 @@ img.grayscale:hover {
 	position:relative;
 	z-index:1;
 	overflow:hidden;
+	height: 400px;
 }
 .effects .img:nth-child(n) {
 	margin-right:5px;
@@ -796,7 +797,7 @@ img.grayscale:hover {
 	display:block;
 	margin:0;
 	padding:0;
-	height:auto;
+	height: 100%;
 }
 .overlay {
 	display:block;
@@ -1249,7 +1250,7 @@ ul.slides li {
 	    margin-bottom: 80px;
 	}
 	.effects .img {
-    	margin-bottom: 15px;
+		margin-bottom: 15px;
 	}
 	.show-menu .icon-list a {
 		display: block;
