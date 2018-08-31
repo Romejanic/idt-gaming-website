@@ -469,8 +469,8 @@ table {
 }
 .hero h1 span {
 	color:#a1a9b0;
-	/* display:inline-block; */
 }
+/* Responsive */
 @media screen and (max-width: 820px) {
 	.hero h1 {
 		font-size: 60px;
@@ -595,6 +595,7 @@ h1.arrow span {
 	height: 887px;
 	background-position: center;
 }
+/* Responsive */
 @media screen and (max-width: 991px) {
 	.about-image.about-1 {
 		height: 400px;
@@ -1010,6 +1011,12 @@ ul.social-buttons li:last-child {
 }
 .contact {
 	margin-top:-20px!important;
+	float: right;
+}
+@media screen and (max-width: 992px) {
+	.contact {
+		float: none;
+	}
 }
 .contact label {
 	float:left;
